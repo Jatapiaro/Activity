@@ -6,9 +6,6 @@ v 1 -1 -1
 v 1 1 -1 
 v -1 -1 -1 
 v -1 1 -1 
-
-mtllib cube_material.mtl
-usemtl cube_mat
 	
 vn 0 0 1
 vn 1 0 0

@@ -55,6 +55,7 @@
 		C05EE1051E78B38400DC9339 /* cPlaneCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cPlaneCreator.h; sourceTree = "<group>"; };
 		C05EE1061E78B38400DC9339 /* glm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glm.h; sourceTree = "<group>"; };
 		C05EE1071E78B38400DC9339 /* glmint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glmint.h; sourceTree = "<group>"; };
+		C05EE1091E78B4B000DC9339 /* Captura de pantalla 2017-03-14 a la(s) 17.30.30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Captura de pantalla 2017-03-14 a la(s) 17.30.30.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		C05EE0D21E78B2F600DC9339 = {
 			isa = PBXGroup;
 			children = (
+				C05EE1081E78B4A100DC9339 /* ACTIVITY2 */,
 				C05EE0F81E78B32A00DC9339 /* assets */,
 				C05EE0F71E78B31E00DC9339 /* header */,
 				C05EE0DD1E78B2F600DC9339 /* Activity2 */,
@@ -135,6 +137,14 @@
 				C05EE0FB1E78B33800DC9339 /* OpenGL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05EE1081E78B4A100DC9339 /* ACTIVITY2 */ = {
+			isa = PBXGroup;
+			children = (
+				C05EE1091E78B4B000DC9339 /* Captura de pantalla 2017-03-14 a la(s) 17.30.30.jpg */,
+			);
+			name = ACTIVITY2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
