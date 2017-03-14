@@ -57,6 +57,7 @@
 		C05EE1071E78B38400DC9339 /* glmint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glmint.h; sourceTree = "<group>"; };
 		C05EE10A1E78B55B00DC9339 /* captura2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = captura2.jpg; sourceTree = "<group>"; };
 		C05EE10B1E78B55B00DC9339 /* captura1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = captura1.jpg; sourceTree = "<group>"; };
+		C05EE10C1E78B5E100DC9339 /* cube_material.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube_material.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 		C05EE0F81E78B32A00DC9339 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				C05EE10C1E78B5E100DC9339 /* cube_material.obj */,
 				C05EE1031E78B37300DC9339 /* cube.obj */,
 				C05EE1041E78B37300DC9339 /* cube_material.mtl */,
 				C05EE0FE1E78B34E00DC9339 /* PUT_YOUR_OBJ_FILES_HERE.txt */,

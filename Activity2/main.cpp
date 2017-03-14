@@ -145,7 +145,7 @@ void init(void)
      * plane.obj (10 points)
      */
     
-    model = glmReadOBJ("/Users/jacobotapia/Desktop/Activity2/cube.obj");
+    model = glmReadOBJ("/Users/jacobotapia/Desktop/Activity2/cube_material.obj");
     // When the model is too big make it fit inside a 1x1x1 cube:
     //glmUnitize(model);
     // You can also scale it later:

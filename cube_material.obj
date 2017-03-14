@@ -1,3 +1,6 @@
+mtllib cube_material.mtl
+usemtl cube_mat
+
 v -1 -1 1 
 v 1 -1 1
 v 1 1 1 
