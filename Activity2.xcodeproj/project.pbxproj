@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C05EE0DF1E78B2F600DC9339 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0DE1E78B2F600DC9339 /* main.cpp */; };
+		C05EE0EE1E78B31300DC9339 /* cPlaneCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0E51E78B31300DC9339 /* cPlaneCreator.cpp */; };
+		C05EE0EF1E78B31300DC9339 /* glmimg.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0E61E78B31300DC9339 /* glmimg.c */; };
+		C05EE0F01E78B31300DC9339 /* glm_util.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0E71E78B31300DC9339 /* glm_util.c */; };
+		C05EE0F11E78B31300DC9339 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0E81E78B31300DC9339 /* glm.c */; };
+		C05EE0F21E78B31300DC9339 /* glmimg_devil.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0E91E78B31300DC9339 /* glmimg_devil.c */; };
+		C05EE0F31E78B31300DC9339 /* glmimg_jpg.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0EA1E78B31300DC9339 /* glmimg_jpg.c */; };
+		C05EE0F41E78B31300DC9339 /* glmimg_png.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0EB1E78B31300DC9339 /* glmimg_png.c */; };
+		C05EE0F51E78B31300DC9339 /* glmimg_sdl.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0EC1E78B31300DC9339 /* glmimg_sdl.c */; };
+		C05EE0F61E78B31300DC9339 /* glmimg_sim.c in Sources */ = {isa = PBXBuildFile; fileRef = C05EE0ED1E78B31300DC9339 /* glmimg_sim.c */; };
+		C05EE0FC1E78B33800DC9339 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05EE0FA1E78B33800DC9339 /* GLUT.framework */; };
+		C05EE0FD1E78B33800DC9339 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05EE0FB1E78B33800DC9339 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,25 @@
 /* Begin PBXFileReference section */
 		C05EE0DB1E78B2F600DC9339 /* Activity2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Activity2; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05EE0DE1E78B2F600DC9339 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C05EE0E51E78B31300DC9339 /* cPlaneCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cPlaneCreator.cpp; sourceTree = "<group>"; };
+		C05EE0E61E78B31300DC9339 /* glmimg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glmimg.c; sourceTree = "<group>"; };
+		C05EE0E71E78B31300DC9339 /* glm_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glm_util.c; sourceTree = "<group>"; };
+		C05EE0E81E78B31300DC9339 /* glm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glm.c; sourceTree = "<group>"; };
+		C05EE0E91E78B31300DC9339 /* glmimg_devil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glmimg_devil.c; sourceTree = "<group>"; };
+		C05EE0EA1E78B31300DC9339 /* glmimg_jpg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glmimg_jpg.c; sourceTree = "<group>"; };
+		C05EE0EB1E78B31300DC9339 /* glmimg_png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glmimg_png.c; sourceTree = "<group>"; };
+		C05EE0EC1E78B31300DC9339 /* glmimg_sdl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glmimg_sdl.c; sourceTree = "<group>"; };
+		C05EE0ED1E78B31300DC9339 /* glmimg_sim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glmimg_sim.c; sourceTree = "<group>"; };
+		C05EE0FA1E78B33800DC9339 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C05EE0FB1E78B33800DC9339 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C05EE0FE1E78B34E00DC9339 /* PUT_YOUR_OBJ_FILES_HERE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PUT_YOUR_OBJ_FILES_HERE.txt; sourceTree = "<group>"; };
+		C05EE0FF1E78B34E00DC9339 /* mystery1.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mystery1.obj; sourceTree = "<group>"; };
+		C05EE1001E78B34E00DC9339 /* mystery2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mystery2.obj; sourceTree = "<group>"; };
+		C05EE1031E78B37300DC9339 /* cube.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube.obj; sourceTree = "<group>"; };
+		C05EE1041E78B37300DC9339 /* cube_material.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cube_material.mtl; sourceTree = "<group>"; };
+		C05EE1051E78B38400DC9339 /* cPlaneCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cPlaneCreator.h; sourceTree = "<group>"; };
+		C05EE1061E78B38400DC9339 /* glm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glm.h; sourceTree = "<group>"; };
+		C05EE1071E78B38400DC9339 /* glmint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glmint.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05EE0FC1E78B33800DC9339 /* GLUT.framework in Frameworks */,
+				C05EE0FD1E78B33800DC9339 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +73,11 @@
 		C05EE0D21E78B2F600DC9339 = {
 			isa = PBXGroup;
 			children = (
+				C05EE0F81E78B32A00DC9339 /* assets */,
+				C05EE0F71E78B31E00DC9339 /* header */,
 				C05EE0DD1E78B2F600DC9339 /* Activity2 */,
 				C05EE0DC1E78B2F600DC9339 /* Products */,
+				C05EE0F91E78B33800DC9339 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +92,49 @@
 		C05EE0DD1E78B2F600DC9339 /* Activity2 */ = {
 			isa = PBXGroup;
 			children = (
+				C05EE0E51E78B31300DC9339 /* cPlaneCreator.cpp */,
+				C05EE0E61E78B31300DC9339 /* glmimg.c */,
+				C05EE0E71E78B31300DC9339 /* glm_util.c */,
+				C05EE0E81E78B31300DC9339 /* glm.c */,
+				C05EE0E91E78B31300DC9339 /* glmimg_devil.c */,
+				C05EE0EA1E78B31300DC9339 /* glmimg_jpg.c */,
+				C05EE0EB1E78B31300DC9339 /* glmimg_png.c */,
+				C05EE0EC1E78B31300DC9339 /* glmimg_sdl.c */,
+				C05EE0ED1E78B31300DC9339 /* glmimg_sim.c */,
 				C05EE0DE1E78B2F600DC9339 /* main.cpp */,
 			);
 			path = Activity2;
+			sourceTree = "<group>";
+		};
+		C05EE0F71E78B31E00DC9339 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				C05EE1051E78B38400DC9339 /* cPlaneCreator.h */,
+				C05EE1061E78B38400DC9339 /* glm.h */,
+				C05EE1071E78B38400DC9339 /* glmint.h */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		C05EE0F81E78B32A00DC9339 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C05EE1031E78B37300DC9339 /* cube.obj */,
+				C05EE1041E78B37300DC9339 /* cube_material.mtl */,
+				C05EE0FE1E78B34E00DC9339 /* PUT_YOUR_OBJ_FILES_HERE.txt */,
+				C05EE0FF1E78B34E00DC9339 /* mystery1.obj */,
+				C05EE1001E78B34E00DC9339 /* mystery2.obj */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		C05EE0F91E78B33800DC9339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C05EE0FA1E78B33800DC9339 /* GLUT.framework */,
+				C05EE0FB1E78B33800DC9339 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05EE0F01E78B31300DC9339 /* glm_util.c in Sources */,
 				C05EE0DF1E78B2F600DC9339 /* main.cpp in Sources */,
+				C05EE0F11E78B31300DC9339 /* glm.c in Sources */,
+				C05EE0F21E78B31300DC9339 /* glmimg_devil.c in Sources */,
+				C05EE0F61E78B31300DC9339 /* glmimg_sim.c in Sources */,
+				C05EE0F31E78B31300DC9339 /* glmimg_jpg.c in Sources */,
+				C05EE0EE1E78B31300DC9339 /* cPlaneCreator.cpp in Sources */,
+				C05EE0F41E78B31300DC9339 /* glmimg_png.c in Sources */,
+				C05EE0EF1E78B31300DC9339 /* glmimg.c in Sources */,
+				C05EE0F51E78B31300DC9339 /* glmimg_sdl.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
