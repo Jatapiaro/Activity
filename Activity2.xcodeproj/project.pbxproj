@@ -65,6 +65,7 @@
 		C05EE12A1E78BC3700DC9339 /* SwordGame.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwordGame.obj; sourceTree = "<group>"; };
 		C05EE12B1E78BC3700DC9339 /* low_poly_hand_painted_swords_by_ninja_magus-d2yc2cd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "low_poly_hand_painted_swords_by_ninja_magus-d2yc2cd.jpg"; sourceTree = "<group>"; };
 		C05EE12C1E78BCD200DC9339 /* swordcapture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swordcapture.jpg; sourceTree = "<group>"; };
+		C05EE12D1E78C02F00DC9339 /* my_plane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_plane.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 		C05EE0F81E78B32A00DC9339 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				C05EE12D1E78C02F00DC9339 /* my_plane.obj */,
 				C05EE1291E78BC3700DC9339 /* SwordGame.mtl */,
 				C05EE12A1E78BC3700DC9339 /* SwordGame.obj */,
 				C05EE12B1E78BC3700DC9339 /* low_poly_hand_painted_swords_by_ninja_magus-d2yc2cd.jpg */,
@@ -361,6 +363,7 @@
 				C05EE0E41E78B2F600DC9339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

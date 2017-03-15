@@ -41,7 +41,7 @@ void init(void)
     glClearColor(0.2, 0.2, 0.2, 1.0);
     
     pc = new PlaneCreator(20, 30);
-    //pc->create();
+    pc->create();
     
     /*
      A C T I V I T Y    2.  (90 minutes). PERSONAL / PROJECT TEAMS
@@ -145,11 +145,11 @@ void init(void)
      * plane.obj (10 points)
      */
     
-    model = glmReadOBJ("/Users/jacobotapia/Desktop/Activity2/SwordGame.obj");
+    model = glmReadOBJ("/Users/jacobotapia/Desktop/Activity2/my_plane.obj");
     // When the model is too big make it fit inside a 1x1x1 cube:
-    glmUnitize(model);
+    //glmUnitize(model);
     // You can also scale it later:
-    glmScale(model, 1.8f);
+    //glmScale(model, 1.8f);
     
     // When the model doesn't have normals, glm can add them automatically for you:
     glmVertexNormals(model, 45.0f, false); // first per vertex...
@@ -193,7 +193,7 @@ void display(void)
     {
         glRotatef(rotationX, 1, 0, 0);
         glRotatef(rotationY, 0, 1, 0);
-        glmDraw(model, GLM_MATERIAL | GLM_SMOOTH);
+        //glmDraw(model, GLM_MATERIAL | GLM_SMOOTH);
     }
     glPopMatrix();
     glutSwapBuffers();

@@ -6,7 +6,7 @@ PlaneCreator::PlaneCreator(int r, int c)
 	columns = c;
 	vertices = new float[rows*columns*3];
 	normals = new float[rows*columns*3];
-	//faces = new int[???];
+	faces = new int[(rows-1)*(columns-1)];
 }
 
 PlaneCreator::~PlaneCreator()
@@ -18,7 +18,7 @@ PlaneCreator::~PlaneCreator()
 
 void PlaneCreator::create()
 {
-	ofstream myfile("assets/plane.obj");
+	ofstream myfile("/Users/jacobotapia/Desktop/Activity2/my_plane.obj");
 	if( myfile.is_open() )
 	{
 		myfile << "#PLANE.\n";
@@ -55,9 +55,17 @@ void PlaneCreator::create()
 		}
 
 		myfile << "\n";
+        
+        for(int f = 1;f<18;f++){
+            myfile << "f " << f << "//" << f << " " << f+1 << "//" << f+1 << " " << f+6 << "//" << f+6 << "\n";
+            
+             myfile << "f " << f+1 << "//" << f+1 << " " << (f+1)+6 << "//" << (f+1)+5 << " " << (f+1)+5 << "//" << f+6 << "\n";
+            //myfile << "f " << f+1 << "//1 "<<  (f+1)+6 << "//1 " << (f+1)+5 << "//1\n";
+        }
+        myfile << "\n";
 
 		// WRITE TO FILE HERE
-		
+        
 
 		myfile.close();
 	}
