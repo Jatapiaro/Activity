@@ -145,15 +145,15 @@ void init(void)
      * plane.obj (10 points)
      */
     
-    model = glmReadOBJ("/Users/jacobotapia/Desktop/Activity2/cube_material.obj");
+    model = glmReadOBJ("/Users/jacobotapia/Desktop/Activity2/SwordGame.obj");
     // When the model is too big make it fit inside a 1x1x1 cube:
-    //glmUnitize(model);
+    glmUnitize(model);
     // You can also scale it later:
-    //glmScale(model, 2.0f);
+    glmScale(model, 1.8f);
     
     // When the model doesn't have normals, glm can add them automatically for you:
-    //glmVertexNormals(model, 45.0f, false); // first per vertex...
-    //glmFacetNormals(model); // ...and then per face
+    glmVertexNormals(model, 45.0f, false); // first per vertex...
+    glmFacetNormals(model); // ...and then per face
     
     light0_position = new GLfloat[4];
     light0_position[0] = 3;
